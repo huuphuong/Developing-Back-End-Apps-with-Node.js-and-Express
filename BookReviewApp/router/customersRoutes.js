@@ -121,21 +121,26 @@ customersRoutes.delete('/customers/books/:bookCode/reviews', async (req, res) =>
 });
 
 // (Multiple users) Access the application at the same time to view and manage different book reviews simultaneously
-customersRoutes.delete('/customers/books/:bookCode/reviews', async (req, res) => {
-	let bookCode = req.params.bookCode || '';
+customersRoutes.get('/customers/my-review', async (req, res) => {
 	let username = req.session.authorization['username'];
+	let myReviews = [];
 
-	let currentBook = await Books.find(book => book.ISBNCode == bookCode);
-	
-	if (!currentBook) {
-		return res.status(422).json({
-			message: 'Book not found'
+	await Books.map(book => {
+		return book.reviews.map(rv => {
+			if (rv.name == username) {
+				myReviews.push(rv);
+			}
+
+			return rv;
 		});
-	}
+
+		return book;
+	});
+	
 
 	return res.status(200).json({
-		data: currentBook,
-		message: 'Delete review success fully'
+		data: myReviews,
+		message: 'Get my reviews successfully'
 	})
 });
 

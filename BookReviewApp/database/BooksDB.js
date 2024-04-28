@@ -4,7 +4,7 @@ const books = [
 		"ISBNCode": "978-0439554930",
 		"title": "Harry Potter and the Sorcerer's Stone",
 		"reviews": [
-			{ "name": "John", "stars": 5, "message": "Great book, loved the characters!", "created_at": "2024-04-28T08:00:00Z" }
+			{ "name": "nguyenvana", "stars": 5, "message": "Great book, loved the characters!", "created_at": "2024-04-28T08:00:00Z" }
 		]
 	},
 	{
@@ -20,7 +20,7 @@ const books = [
 		"ISBNCode": "978-0439358071",
 		"title": "Harry Potter and the Prisoner of Azkaban",
 		"reviews": [
-			{ "name": "Oliver", "stars": 5, "message": "Couldn't put it down, a fantastic read!", "created_at": "2024-04-28T08:00:00Z" }
+			{ "name": "nguyenvana", "stars": 5, "message": "Couldn't put it down, a fantastic read!", "created_at": "2024-04-28T08:00:00Z" }
 		]
 	},
 	{
@@ -36,7 +36,7 @@ const books = [
 		"ISBNCode": "978-0061120084",
 		"title": "To Kill a Mockingbird",
 		"reviews": [
-			{ "name": "Matthew", "stars": 5, "message": "An essential read, timeless classic!", "created_at": "2024-04-28T08:00:00Z" }
+			{ "name": "nguyenvana", "stars": 5, "message": "An essential read, timeless classic!", "created_at": "2024-04-28T08:00:00Z" }
 		]
 	},
 	{
@@ -52,7 +52,7 @@ const books = [
 		"ISBNCode": "978-0743273565",
 		"title": "The Great Gatsby",
 		"reviews": [
-			{ "name": "William", "stars": 4, "message": "Captivating storyline, loved the prose!", "created_at": "2024-04-28T08:00:00Z" }
+			{ "name": "nguyenvana", "stars": 4, "message": "Captivating storyline, loved the prose!", "created_at": "2024-04-28T08:00:00Z" }
 		]
 	},
 	{
@@ -68,7 +68,7 @@ const books = [
 		"ISBNCode": "978-0486406510",
 		"title": "The Adventures of Huckleberry Finn",
 		"reviews": [
-			{ "name": "James", "stars": 5, "message": "An American classic, enjoyed every page!", "created_at": "2024-04-28T08:00:00Z" }
+			{ "name": "nguyenvana", "stars": 5, "message": "An American classic, enjoyed every page!", "created_at": "2024-04-28T08:00:00Z" }
 		]
 	},
 	{
