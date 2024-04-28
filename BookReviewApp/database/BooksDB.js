@@ -1,4 +1,4 @@
-[
+const books = [
 	{
 		"author": "J.K. Rowling",
 		"ISBNCode": "978-0439554930",
